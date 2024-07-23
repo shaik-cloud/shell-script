@@ -6,7 +6,7 @@ else
    echo "it is root user"
 fi
 yum install mysql111 -y
-if [$? -ne 0]
+if [ $? -ne 0 ]
 then 
    echo "error:installing mysql is failed"
    exit 1
