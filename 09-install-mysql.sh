@@ -5,7 +5,7 @@ then
 else
    echo "it is root user"
 fi
-yum install mysql -y
+yum install mysql111 -y
 if [$? -ne 0]
 then 
    echo "error:installing mysql is failed"
