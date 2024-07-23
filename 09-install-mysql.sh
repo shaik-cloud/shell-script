@@ -5,3 +5,4 @@ then
 else
    echo "it is root user"
 fi
+yum install mysql -y
