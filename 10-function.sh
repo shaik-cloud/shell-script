@@ -18,4 +18,4 @@ fi
 yum install mysql -y
 VALIDATE $? "installing mysql"
 yum install git -y
-VALIDATE $2 "installing git"
+VALIDATE $? "installing git"
