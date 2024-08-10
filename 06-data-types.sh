@@ -5,6 +5,6 @@ NUMBER2=$2
 
 SUM=$(($NUMBER1+$NUMBER2))
 
-echo "Total:: $SUM"
+echo " Total:: $SUM "
 
-echo "Howmeny args passed :: $#"
+echo " Howmeny args passed :: $# "
